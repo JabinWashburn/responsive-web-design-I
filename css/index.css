@@ -224,22 +224,6 @@ h1 {
     .cta-text h1{
         font-size: 60px;
     }
-    header nav .links{
-        flex-direction: column;
-        align-items: center;
-        padding: 5%;
-        margin: 20%;
-    }
-    header nav .links a{
-      padding-top: 10%;
-      padding-bottom: 10%;
-      font-size: 30px;
-      border-bottom: 2px solid black;
-    }
-    header nav{
-      display: flex;
-      justify-content: space-evenly;
-    }
     .top-content{
       align-content: center;
       flex-direction: column;
@@ -247,5 +231,21 @@ h1 {
     .bottom-content{
       align-content: center;
       flex-direction: column;
+    }
+    .links a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid black;
+      padding: 20px;
+      width: 100%;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .links{
+      flex-direction: column;
+      margin: 2% 0;
+      border-width: 100%;
+      border-bottom: 1px solid black;
     }
   }|
